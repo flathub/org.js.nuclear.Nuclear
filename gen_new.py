@@ -3,10 +3,12 @@ import json
 import requests
 import argparse
 import hashlib
+import os
 
 
 def reconstruct(url):
     # opens file with op handler in read mode
+    print("downloading nuclear")
     r = requests.get(url, allow_redirects=True)
     open("nuclear.tar.gz", "wb").write(r.content)
     sha256 = hashlib.sha256()
@@ -27,6 +29,7 @@ def reconstruct(url):
         data["modules"][0]["sources"][0]["url"] = url
         data["modules"][0]["sources"][0]["sha256"] = shahash
         print("done")
+        os.system("rm -rf nuclear.tar.gz")
     # opens file in write mode
     with open("org.js.nuclear.Nuclear.json", "w") as f:
         print("updating json")
@@ -36,7 +39,12 @@ def reconstruct(url):
         f.writelines(formated_data)
         # close file handler b/c best pratices
         f.close()
-        print("done")
+        print("uploading to flathub")
+        os.system("git add .")
+        os.system(
+            'git commit -m "updated nuclear(this genrated automatically reach out if there are issues"'
+        )
+        os.system("git push -u origin master")
 
 
 def main():
