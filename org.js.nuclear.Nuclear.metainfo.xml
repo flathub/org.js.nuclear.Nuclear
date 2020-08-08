@@ -63,7 +63,7 @@
     <url type="homepage">https://nuclear.js.org</url>
     <project_group>Nuclear</project_group>
     <releases>
-        <release version="0.6.3" date="2020-02-04">
+        <release version="0.6.3" date="2020-05-29">
         <description>
             <p>This release fixes the recent issues where queue items would keep loading indefinitely.</p>
         </description>
