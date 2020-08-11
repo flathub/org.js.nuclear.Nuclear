@@ -12,6 +12,7 @@ def reconstruct(url):
     r = requests.get(url, allow_redirects=True)
     open("nuclear.tar.gz", "wb").write(r.content)
     sha256 = hashlib.sha256()
+    print("calculating shasum")
     with open("nuclear.tar.gz", "rb") as f:
         for byte_block in iter(lambda: f.read(4096), b""):
             sha256.update(byte_block)

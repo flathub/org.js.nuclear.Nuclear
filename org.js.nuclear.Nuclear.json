@@ -20,6 +20,9 @@
                 "install -D run.sh --target-directory=/app/bin/"
             ],
             "buildsystem": "simple",
+            "cleanup": [
+                "rm -rf app/main/org.js.*"
+            ],
             "name": "nuclear",
             "sources": [
                 {
