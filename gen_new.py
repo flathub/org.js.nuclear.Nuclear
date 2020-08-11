@@ -39,12 +39,13 @@ def reconstruct(url):
         f.writelines(formated_data)
         # close file handler b/c best pratices
         f.close()
-        print("uploading to flathub")
-        os.system("git add .")
-        os.system(
-            'git commit -m "updated nuclear(this genrated automatically reach out if there are issues"'
-        )
-        os.system("git push -u origin master")
+        print("updating done")
+
+
+def git_push():
+    os.system("git add .")
+    os.system("git commit -m 'automated updated'")
+    os.system("git push -u origin master")
 
 
 def main():
@@ -59,3 +60,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print("pushing to github")
+    git_push()
