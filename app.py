@@ -6,22 +6,17 @@ import threading
 app = Flask(__name__)
 
 
-def update(url):
+def update_flatpak(url):
     os.system(f"python gen_new.py --url {url}")
 
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def update():
-    try:
-        url = request.get_data("url")
-        url = url.decode("utf-8")
-        url = urllib.parse.unquote(url)
-        url = url.split("=")
-        url = url[1]
-        print(url)
-        update_thread = threading.Thread(target=update, args=url)
+    if request.method == "POST":
+        url = request.form["url"]
+        update_thread = threading.Thread(target=update_flatpak, args=(url,))
         update_thread.start()
         return "hello"
-    except:
-        return "failed to get url"
+    else:
+        return "hello"
 
