@@ -2,6 +2,9 @@
     "app-id": "org.js.nuclear.Nuclear",
     "branch": "stable",
     "command": "run.sh",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "19.08",
+    "sdk": "org.freedesktop.Sdk",
     "finish-args": [
         "--share=network",
         "--share=ipc",
@@ -9,6 +12,7 @@
         "--filesystem=home",
         "--socket=pulseaudio"
     ],
+    "separate-locales": false,
     "modules": [
         {
             "build-commands": [
@@ -26,9 +30,14 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "8b284564bdab713d45e961d384697ef8f4309a15309b84de2de307caee83d1d4",
+                    "sha256": "5b90a1064736c158f62ea74c5814dffdd25f8b6a3877dfeed065377e744cdd2e",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.5/nuclear-0.6.5.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.3/nuclear-fca030.tar.gz"
+                },
+                {
+                    "sha256": "6dd24a08d89178c45a3afca9505576741be836ddbc39a33b72b52862e081bbc4",
+                    "type": "archive",
+                    "url": "https://github.com/lovell/sharp/releases/download/v0.26.0/sharp-v0.26.0-napi-v3-linux-x64.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
@@ -51,9 +60,5 @@
                 }
             ]
         }
-    ],
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "19.08",
-    "sdk": "org.freedesktop.Sdk",
-    "separate-locales": false
+    ]
 }
