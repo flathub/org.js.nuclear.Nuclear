@@ -45,7 +45,7 @@
         </screenshot>
         <screenshot>
             <caption>Dashboard Genres</caption>
-            <image>https://i.imgur.com/g0aCmKx.png)</image>
+            <image>https://i.imgur.com/g0aCmKx.png</image>
         </screenshot>
         <screenshot>
             <caption>Playlist View</caption>
@@ -63,7 +63,7 @@
     <url type="homepage">https://nuclear.js.org</url>
     <project_group>Nuclear</project_group>
     <releases>
-        <release version="0.6.3" date="2020-05-29">
+        <release version="0.6.5" date="2020-09-27">
         <description>
             <p>This release fixes the recent issues where queue items would keep loading indefinitely.</p>
         </description>
