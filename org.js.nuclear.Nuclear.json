@@ -2,6 +2,8 @@
     "app-id": "org.js.nuclear.Nuclear",
     "branch": "stable",
     "command": "run.sh",
+    "base":"org.electronjs.Electron2.BaseApp",
+    "base-version": "20.08",
     "finish-args": [
         "--share=network",
         "--share=ipc",
@@ -9,7 +11,7 @@
         "--filesystem=home",
         "--socket=pulseaudio"
     ],
-    "modules": [
+    "modules": [        
         {
             "build-commands": [
                 "mkdir -p /app/main/",
@@ -31,11 +33,6 @@
                     "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.6/nuclear-binaries-v0.6.6.tar.gz"
                 },
                 {
-                    "sha256": "6dd24a08d89178c45a3afca9505576741be836ddbc39a33b72b52862e081bbc4",
-                    "type": "archive",
-                    "url": "https://github.com/lovell/sharp/releases/download/v0.26.0/sharp-v0.26.0-napi-v3-linux-x64.tar.gz"
-                },
-                {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
                     "type": "file"
                 },
@@ -49,7 +46,7 @@
                 },
                 {
                     "commands": [
-                        "/app/main/nuclear"
+                        "zypak-wrapper /app/main/nuclear"
                     ],
                     "dest-filename": "run.sh",
                     "type": "script"
@@ -58,7 +55,7 @@
         }
     ],
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "19.08",
+    "runtime-version": "20.08",
     "sdk": "org.freedesktop.Sdk",
     "separate-locales": false
 }
