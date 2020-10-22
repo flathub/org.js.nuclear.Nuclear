@@ -55,11 +55,22 @@ def main():
     args = parser.parse_args()
     if args != None:
         reconstruct(args.url)
+        check = test()
     else:
         print("No arguments give requires Url to continue")
 
+def test():
+    status = os.system('flatpak-builder build-dir org.js.nuclear.Nuclear.json --force-clean')
+    if status == 0:
+        os.system('sudo flatpak-builder build-dir org.js.nuclear.Nuclear.json --force-clean --user --install')
+        launch = os.system('flatpak run org.js.nuclear.Nuclear')
+        if launch == 0:
+            return True
+        else:
+            return False
+    else:
+        return False
 
 if __name__ == "__main__":
     main()
-    print("pushing to github")
-    git_push()
+    

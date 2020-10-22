@@ -2,9 +2,6 @@
     "app-id": "org.js.nuclear.Nuclear",
     "branch": "stable",
     "command": "run.sh",
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "19.08",
-    "sdk": "org.freedesktop.Sdk",
     "finish-args": [
         "--share=network",
         "--share=ipc",
@@ -12,7 +9,6 @@
         "--filesystem=home",
         "--socket=pulseaudio"
     ],
-    "separate-locales": false,
     "modules": [
         {
             "build-commands": [
@@ -30,9 +26,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "5b90a1064736c158f62ea74c5814dffdd25f8b6a3877dfeed065377e744cdd2e",
+                    "sha256": "32eb8b05d854a0c96820632094510ae5dd26d3df4d196e97e4fd298de2258185",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.3/nuclear-fca030.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.6/nuclear-binaries-v0.6.6.tar.gz"
                 },
                 {
                     "sha256": "6dd24a08d89178c45a3afca9505576741be836ddbc39a33b72b52862e081bbc4",
@@ -60,5 +56,9 @@
                 }
             ]
         }
-    ]
+    ],
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "19.08",
+    "sdk": "org.freedesktop.Sdk",
+    "separate-locales": false
 }
