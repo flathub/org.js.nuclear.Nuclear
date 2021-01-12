@@ -2,7 +2,7 @@
     "app-id": "org.js.nuclear.Nuclear",
     "branch": "stable",
     "command": "run.sh",
-    "base":"org.electronjs.Electron2.BaseApp",
+    "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "20.08",
     "finish-args": [
         "--share=network",
@@ -11,7 +11,7 @@
         "--filesystem=home",
         "--socket=pulseaudio"
     ],
-    "modules": [        
+    "modules": [
         {
             "build-commands": [
                 "mkdir -p /app/main/",
@@ -28,9 +28,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "32eb8b05d854a0c96820632094510ae5dd26d3df4d196e97e4fd298de2258185",
+                    "sha256": "761f800a6974a37245f127a81ca4ebc09872aaa027b5cbdfa6666c0d73b7fc7f",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.6/nuclear-binaries-v0.6.6.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.7/nuclear-0.6.7.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
