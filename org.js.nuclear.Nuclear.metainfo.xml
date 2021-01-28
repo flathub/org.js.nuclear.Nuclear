@@ -63,9 +63,9 @@
     <url type="homepage">https://nuclear.js.org</url>
     <project_group>Nuclear</project_group>
     <releases>
-        <release version="0.6.7" date="2020-05-27">
+        <release version="0.6.8" date="2021-01-28">
         <description>
-            <p>This release fixes playback issues with the yotube api by removing the need for a key</p>
+            <p>This release updates the youtube libraries while adding search histroy and band camp support</p>
         </description>
         </release>
     </releases>
