@@ -63,9 +63,9 @@
     <url type="homepage">https://nuclear.js.org</url>
     <project_group>Nuclear</project_group>
     <releases>
-        <release version="0.6.10" date="2021-03-04">
+        <release version="0.6.11" date="2021-04-04">
         <description>
-            <p>This release contains integration with SponsorBlock and bugfixes.</p>
+            <p>This release contains a korean translation and bugfixes.</p>
         </description>
         </release>
     </releases>
