@@ -64,6 +64,10 @@
     <project_group>Nuclear</project_group>
     <releases>
         <release version="0.6.12" date="2021-04-25">
+        <description>
+            <p>This release lowers resource and disk usage during playing music.</p>
+        </description>
+        </release>
         <release version="0.6.11" date="2021-04-04">
         <description>
             <p>This release contains a korean translation and bugfixes.</p>
