@@ -63,14 +63,9 @@
     <url type="homepage">https://nuclear.js.org</url>
     <project_group>Nuclear</project_group>
     <releases>
-        <release version="0.6.12" date="2021-04-25">
+        <release version="0.6.13" date="2021-04-27">
         <description>
-            <p>This release lowers resource and disk usage during playing music.</p>
-        </description>
-        </release>
-        <release version="0.6.11" date="2021-04-04">
-        <description>
-            <p>This release contains a korean translation and bugfixes.</p>
+            <p>See release notes: https://github.com/nukeop/nuclear/releases/tag/v0.6.13</p>
         </description>
         </release>
     </releases>
