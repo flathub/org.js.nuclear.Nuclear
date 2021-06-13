@@ -28,9 +28,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "872d4dd1ead284fc6b591b5d1cc5698744001ed64ac0e4f8595b597683bb4539",
+                    "sha256": "b129f73ef45920e2c9a58ddc34f4fc75450ae4d62075750193d52135509c5c83",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.13/nuclear-0.6.13.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.14/nuclear-0.6.14.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
