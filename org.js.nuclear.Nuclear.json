@@ -28,9 +28,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "b5a8cef8c64f68b8e00142f37ea5552edf26633d2b89235f604ce8315b93d59c",
+                    "sha256": "500db84acc92600f359bef575c0989e7db02d3a13a8961a7d579a12c2f800bec",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.17/nuclear-v0.6.17.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/2dd909/nuclear-2dd909.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
