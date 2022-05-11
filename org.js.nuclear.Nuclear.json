@@ -28,9 +28,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "58ecfa4f51602bd11cfb4107c3241c423fd9606462bb79f5629f0eea474319a5",
+                    "sha256": "a97851affd477e687e24db4a007f908eb2536e3f47a6cd88e6ebc4b8050b249c",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/eac584/nuclear-eac584.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/2ec701/nuclear-2ec701.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
