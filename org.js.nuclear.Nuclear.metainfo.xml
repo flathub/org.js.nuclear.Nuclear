@@ -7,7 +7,7 @@
     <summary>An Electron based music player</summary>
     <content_rating type="oars-1.1" />
     <description>
-    <p>Nuclear is a free music streaming program that pulls content from free sources all over the internet.</p>
+    <p>nuclear is a free music streaming program that pulls content from free sources all over the internet.</p>
 
     <p>If you know mps-youtube, this is a similar music player but with a GUI.
     It's also focusing more on audio. Imagine Spotify which you don't have to pay for and with a bigger library.</p>
