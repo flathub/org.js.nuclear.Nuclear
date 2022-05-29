@@ -4,10 +4,10 @@
     <metadata_license>FSFAP</metadata_license>
     <project_license>GPL-3.0+</project_license>
     <name>nuclear music player</name>
-    <summary>A electron based music player</summary>
+    <summary>An Electron based music player</summary>
     <content_rating type="oars-1.1" />
     <description>
-    <p>nuclear is a free music streaming program that pulls content from free sources all over the internet.</p>
+    <p>Nuclear is a free music streaming program that pulls content from free sources all over the internet.</p>
 
     <p>If you know mps-youtube, this is a similar music player but with a GUI.
     It's also focusing more on audio. Imagine Spotify which you don't have to pay for and with a bigger library.</p>
