@@ -3,7 +3,7 @@
     "branch": "stable",
     "command": "run.sh",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "21.08",
+    "base-version": "20.08",
     "finish-args": [
         "--share=network",
         "--share=ipc",
