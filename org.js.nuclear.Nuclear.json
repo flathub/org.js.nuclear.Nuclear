@@ -3,11 +3,7 @@
     "branch": "stable",
     "command": "run.sh",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "21.08",    
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "21.08",
-    "sdk": "org.freedesktop.Sdk",
-    "separate-locales": false,
+    "base-version": "20.08",
     "finish-args": [
         "--share=network",
         "--share=ipc",
@@ -32,9 +28,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "e8eb3310bd0b3afa27795a68142d190249976260547a5539b81b76e47c8c1868",
+                    "sha256": "3b98bb6ffac006bf141361ed8c1c3a9d4f9d162a4726a7a2ce4adf4fbb414e0a",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/9545bf/nuclear-9545bf.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/549e4d/nuclear-549e4d.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
@@ -57,5 +53,9 @@
                 }
             ]
         }
-    ]
+    ],
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "20.08",
+    "sdk": "org.freedesktop.Sdk",
+    "separate-locales": false
 }
