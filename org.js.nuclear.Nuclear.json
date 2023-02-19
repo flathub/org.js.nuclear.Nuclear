@@ -33,9 +33,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "093f905179597952857d65bcc0bf42650e57fd75ebe1cf99cbc5978607c88277",
+                    "sha256": "9c6b6242b63f5f0335eaae376f2f1ab8c344334bbefb2062e27cc5a2631aa7eb",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/58dfc7/nuclear-58dfc7.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/fd06a3/nuclear-fd06a3.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
