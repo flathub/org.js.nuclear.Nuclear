@@ -33,7 +33,7 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "dd3630e3d7eabaa6acbc5f4e200cf89f398e68fa50e554ca605dd782f9271af2",
+                    "sha256": "b5b1ea025a934770ac18f43d286a47f2cff489e2da44350f551e838654a3cce1",
                     "type": "archive",
                     "url": "https://github.com/nukeop/nuclear/releases/download/2f1ec0/nuclear-2f1ec0.tar.gz"
                 },
