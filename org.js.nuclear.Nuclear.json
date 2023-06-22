@@ -33,7 +33,7 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "d0a207a0f5a40d4fb8f4ffa59524fbe452c53f9faca84524ec91d2f9ae64602f",
+                    "sha256": "16542a947b8c74068476cb159a80500fab7f39971f3e12e1208c8a517295aad3",
                     "type": "archive",
                     "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.23/nuclear-v0.6.23.tar.gz"
                 },
