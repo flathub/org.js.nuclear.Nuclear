@@ -13,8 +13,9 @@
         "--share=ipc",
         "--socket=x11",
         "--device=dri",
-        "--filesystem=home",
-        "--socket=pulseaudio"
+        "--filesystem=xdg-music",
+        "--socket=pulseaudio",
+        "--own-name=org.mpris.MediaPlayer2.nuclear"
     ],
     "modules": [
         {
