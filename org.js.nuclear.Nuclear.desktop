@@ -2,6 +2,12 @@
 Name=Nuclear
 Comment=Streaming music player that finds music sources automatically.
 Comment[es]=Reproductor que retransmite música desde fuentes encontradas automáticamente.
+Comment[fr]=Lecteur de musique en streaming qui trouve automatiquement des sources de musique.
+Comment[pt]=Reprodutor de música em streaming que encontra fontes de música automaticamente.
+Comment[ru]=Плеер для прослушивания музыки, который автоматически находит источники музыки.
+Comment[zh_CN]=流媒体音乐播放器，自动查找音乐来源。
+Comment[pl]=Odtwarzacz muzyki, który automatycznie znajduje źródła muzyki.
+GenericName=Music Player
 Exec="/app/bin/run.sh"
 Terminal=false
 Type=Application
