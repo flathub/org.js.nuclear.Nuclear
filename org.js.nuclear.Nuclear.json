@@ -3,7 +3,7 @@
     "branch": "stable",
     "command": "run.sh",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "22.08",
+    "base-version": "22.08",    
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
@@ -13,9 +13,8 @@
         "--share=ipc",
         "--socket=x11",
         "--device=dri",
-        "--filesystem=xdg-music",
-        "--socket=pulseaudio",
-        "--own-name=org.mpris.MediaPlayer2.nuclear"
+        "--filesystem=home",
+        "--socket=pulseaudio"
     ],
     "modules": [
         {
@@ -34,9 +33,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "9b1e565801d1787614eac53200ffc70e8bfa3c70753a644d30b8a2b85e39dfb7",
+                    "sha256": "6a5a1c31979badd1a5c2b71562d84dfa1b602f447360e1ce2615fb952af4ad8c",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.31/nuclear-v0.6.31-x64.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.32/nuclear-v0.6.32-x64.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
