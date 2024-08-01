@@ -3,7 +3,7 @@
     "branch": "stable",
     "command": "run.sh",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "22.08",    
+    "base-version": "22.08",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
@@ -13,7 +13,8 @@
         "--share=ipc",
         "--socket=x11",
         "--device=dri",
-        "--filesystem=home",
+        "--filesystem=xdg-music",
+        "--filesystem=xdg-downloads",
         "--socket=pulseaudio"
     ],
     "modules": [
