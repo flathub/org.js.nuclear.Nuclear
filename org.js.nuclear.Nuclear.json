@@ -3,7 +3,7 @@
     "branch": "stable",
     "command": "run.sh",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "22.08",
+    "base-version": "22.08",    
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
@@ -34,9 +34,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "6a5a1c31979badd1a5c2b71562d84dfa1b602f447360e1ce2615fb952af4ad8c",
+                    "sha256": "563d6c6f25124d61fbe28bda391f62833f49dd9f66d4d96708f595170dcba755",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.32/nuclear-v0.6.32-x64.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.33/nuclear-v0.6.33-x64.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
