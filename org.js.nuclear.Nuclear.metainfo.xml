@@ -2,7 +2,7 @@
 <component type="desktop-application">
     <id>org.js.nuclear.Nuclear</id>
     <metadata_license>FSFAP</metadata_license>
-    <project_license>GPL-3.0+</project_license>
+    <project_license>AGPL-3.0-only</project_license>
     <name>nuclear music player</name>
     <summary>A electron based music player</summary>
     <developer id="org.js.nuclear">
@@ -66,7 +66,7 @@
     <url type="homepage">https://nuclear.js.org</url>
     <project_group>Nuclear</project_group>
     <releases>
-        <release version="v0.6.36" date="2024-8-6">
+        <release version="v0.6.37" date="2024-8-15">
         <description>
             <p>See release notes on Github</p>
         </description>
