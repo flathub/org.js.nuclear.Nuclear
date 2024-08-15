@@ -3,35 +3,31 @@
     <id>org.js.nuclear.Nuclear</id>
     <metadata_license>FSFAP</metadata_license>
     <project_license>AGPL-3.0-only</project_license>
-    <name>nuclear music player</name>
-    <summary>A electron based music player</summary>
+    <name>Nuclear</name>
+    <summary>Unlimited music streaming</summary>
     <developer id="org.js.nuclear">
         <name>Nuclear team</name>
     </developer>
     <content_rating type="oars-1.1" />
     <description>
-    <p>nuclear is a free music streaming program that pulls content from free sources all over the internet.</p>
+    <p>Nuclear is a music streaming application that aggregates audio content from free sources across the web, delivering an experience similar to popular services without the costs, tracking, and ads.</p>
 
-    <p>If you know mps-youtube, this is a similar music player but with a GUI.
-    It's also focusing more on audio. Imagine Spotify which you don't have to pay for and with a bigger library.</p>
-
-    <p>Features</p>
+    <p>Nuclear lets you explore music with features such as:</p>
     <ul>
-        <li> Searching for and playing music from YouTube (including integration with playlists), Jamendo, and SoundCloud</li>
-        <li> Searching for albums (powered by Last.fm and Discogs), album view, automatic song lookup based on artist and track name (in progress, can be dodgy sometimes)</li>
-        <li> Song queue, which can be exported as a playlist</li>
-        <li> Loading saved playlists (stored in json files)</li>
-        <li> Scrobbling to last.fm (along with updating the 'now playing' status)</li>
-        <li> Newest releases with reviews - tracks and albums</li>
-        <li> Browsing by genre</li>
-        <li> Radio mode (automatically queue similar tracks)</li>
-        <li> Unlimited downloads (powered by youtube)</li>
-        <li> Realtime lyrics</li>
-        <li> Browsing by popularity</li>
-        <li> List of favorite tracks</li>
-        <li> Listening from local library</li>
+        <li>Seamlessly stream music with playlist integration</li>
+        <li>Search and discover albums through Last.fm, Discogs, and Spotify, and enjoy a rich album experience</li>
+        <li>Manage a customizable song queue that you can export as a playlist</li>
+        <li>Import your saved playlists in JSON format, or directly from Spotify</li>
+        <li>Scrobble your play history to Last.fm, complete with 'now playing' updates</li>
+        <li>Stay updated with the newest popular playlists, tracks, and albums</li>
+        <li>Explore music categorized by genre and popularity</li>
+        <li>Radio mode that intelligently queues similar tracks</li>
+        <li>Download tracks without limits, powered by YouTube</li>
+        <li>Access real-time lyrics to sing along with your tracks</li>
+        <li>Create a list of personalized favorite tracks, albums, and artists</li>
+        <li>Access and listen to your local music library</li>
     </ul>
-    </description> 
+    </description>
     <launchable type="desktop-id">org.js.nuclear.Nuclear.desktop</launchable>
     <screenshots>
         <screenshot type="default">
@@ -68,7 +64,7 @@
     <releases>
         <release version="v0.6.37" date="2024-8-15">
         <description>
-            <p>See release notes on Github</p>
+            <p>See release notes on Github for detailed updates and changes.</p>
         </description>
         </release>
     </releases>
