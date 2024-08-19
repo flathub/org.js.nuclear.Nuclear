@@ -9,6 +9,10 @@
         <name>Nuclear team</name>
     </developer>
     <content_rating type="oars-1.1" />
+    <branding>
+        <color type="primary" scheme_preference="light">#B7C3E6</color>
+        <color type="primary" scheme_preference="dark">#1F212D</color>
+    </branding>
     <description>
     <p>Nuclear is a music streaming application that aggregates audio content from free sources across the web, delivering an experience similar to popular services without the costs, tracking, and ads.</p>
 
@@ -17,7 +21,7 @@
         <li>Seamlessly stream music with playlist integration</li>
         <li>Search and discover albums through Last.fm, Discogs, and Spotify, and enjoy a rich album experience</li>
         <li>Manage a customizable song queue that you can export as a playlist</li>
-        <li>Import your saved playlists in JSON format, or directly from Spotify</li>
+        <li>Import your playlists from Spotify, Deezer, and from files</li>
         <li>Scrobble your play history to Last.fm, complete with 'now playing' updates</li>
         <li>Stay updated with the newest popular playlists, tracks, and albums</li>
         <li>Explore music categorized by genre and popularity</li>
@@ -31,38 +35,55 @@
     <launchable type="desktop-id">org.js.nuclear.Nuclear.desktop</launchable>
     <screenshots>
         <screenshot type="default">
-        <caption>Album Search</caption>
-        <image>https://i.imgur.com/idFVnAF.png</image>
+            <image>https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_default.jpg</image>
+            <caption>Dashboard with tracks in the queue</caption>
         </screenshot>
         <screenshot>
-            <caption>Album Display</caption>
-        <image>https://i.imgur.com/Kvzo3q7.png</image>
+            <image>https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_dashboard.jpg</image>
+            <caption>Dashboard</caption>
         </screenshot>
         <screenshot>
-            <caption>Dashboard Best New Music</caption>
-            <image>https://i.imgur.com/bMDrR4M.png</image>
+            <image>https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_album.jpg</image>
+            <caption>Album</caption>
         </screenshot>
         <screenshot>
-            <caption>Dashboard Genres</caption>
-            <image>https://i.imgur.com/g0aCmKx.png</image>
+            <image>https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_artist.jpg</image>
+            <caption>Artist</caption>
         </screenshot>
         <screenshot>
-            <caption>Playlist View</caption>
-            <image>https://i.imgur.com/2VMXHDC.png</image>
+            <image>https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_visualizer.jpg</image>
+            <caption>Visualizer</caption>
         </screenshot>
         <screenshot>
-            <caption>Lyrics View</caption>
-            <image>https://i.imgur.com/7e3DJKJ.png</image>
+            <image>https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_playlist.jpg</image>
+            <caption>Playlist</caption>
         </screenshot>
         <screenshot>
-            <caption>Equalizer View</caption>
-            <image>https://i.imgur.com/WreRL0w.png</image>
+            <image>https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_search.jpg</image>
+            <caption>Search</caption>
+        </screenshot>
+        <screenshot>
+            <image>
+                https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_command_palette.jpg</image>
+            <caption>Command palette</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_equalizer.jpg</image>
+            <caption>Equalizer</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_genres.jpg</image>
+            <caption>Genres</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/nukeop/nuclear/master/screenshot_settings.jpg</image>
+            <caption>Settings</caption>
         </screenshot>
     </screenshots>
     <url type="homepage">https://nuclear.js.org</url>
     <project_group>Nuclear</project_group>
     <releases>
-        <release version="v0.6.37" date="2024-8-15">
+        <release version="v0.6.38" date="2024-8-19">
         <description>
             <p>See release notes on Github for detailed updates and changes.</p>
         </description>
