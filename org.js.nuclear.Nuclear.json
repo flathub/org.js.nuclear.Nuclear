@@ -2,15 +2,16 @@
     "app-id": "org.js.nuclear.Nuclear",
     "command": "run.sh",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "22.08",    
+    "base-version": "24.08",    
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "24.08",
     "sdk": "org.freedesktop.Sdk",
     "separate-locales": false,
     "finish-args": [
         "--share=network",
         "--share=ipc",
         "--socket=x11",
+        "--socket=wayland",
         "--device=dri",
         "--filesystem=xdg-music",
         "--filesystem=xdg-download",
@@ -34,9 +35,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "9e1eefb592537ad4abef9ee59725d22378f19171ef0a6d4f63df507e69cb1644",
+                    "sha256": "05f2c12b635196e8505cb4759d46427ccbb7df6b3edf4663a13157676971ee7f",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.43/nuclear-v0.6.43-x64.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.44/nuclear-v0.6.44-x64.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
@@ -52,7 +53,13 @@
                 },
                 {
                     "commands": [
-                        "zypak-wrapper /app/main/nuclear"
+                        "#!/bin/bash",
+                        "if [ "$GDK_BACKEND" = "wayland" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then",
+                        "  export GDK_BACKEND=wayland",
+                        "  zypak-wrapper /app/main/nuclear --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-features=WaylandWindowDecorations "$@"",
+                        "else",
+                        "  zypak-wrapper /app/main/nuclear "$@"",
+                        "fi"
                     ],
                     "dest-filename": "run.sh",
                     "type": "script"
