@@ -35,9 +35,9 @@
             "name": "nuclear",
             "sources": [
                 {
-                    "sha256": "ca75180fb8cbf64afcf394b4e19ff85f2de5ec564612bdf6cc8c20c50b95b1d7",
+                    "sha256": "3969d20a9d0a56725fce5282a52e8b7ad36304b2f5a5123814223f8d244f8c57",
                     "type": "archive",
-                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.45/nuclear-v0.6.45-x64.tar.gz"
+                    "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.46/nuclear-v0.6.46-x64.tar.gz"
                 },
                 {
                     "path": "org.js.nuclear.Nuclear.metainfo.xml",
@@ -54,11 +54,11 @@
                 {
                     "commands": [
                         "#!/bin/bash",
-                        "if [ "$GDK_BACKEND" = "wayland" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then",
+                        "if [ \"$GDK_BACKEND\" = \"wayland\" ] || [ \"$XDG_SESSION_TYPE\" = \"wayland\" ]; then",
                         "  export GDK_BACKEND=wayland",
-                        "  zypak-wrapper /app/main/nuclear --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-features=WaylandWindowDecorations "$@"",
+                        "  zypak-wrapper /app/main/nuclear --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-features=WaylandWindowDecorations \"$@\"",
                         "else",
-                        "  zypak-wrapper /app/main/nuclear "$@"",
+                        "  zypak-wrapper /app/main/nuclear \"$@\"",
                         "fi"
                     ],
                     "dest-filename": "run.sh",
