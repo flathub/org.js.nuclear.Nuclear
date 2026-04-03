@@ -1,5 +1,7 @@
 {
     "only-arches": [
         "x86_64"
-    ]
+    ],
+    "end-of-life": "Nuclear has been rewritten and released under a new ID. Updating will migrate you to the new version automatically.",
+    "end-of-life-rebase": "com.nuclearplayer.Nuclear"
 }
